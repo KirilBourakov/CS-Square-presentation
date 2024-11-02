@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an example webpage">
+        <meta name="author" content="Kiril Bourakov">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+
+        <div>
+            <h1 class="blue">This is another heading, but it has a class</h1>
+            <small>(because of specificity)</small>
+            <div class="blue">
+                <p>
+                    This paragraph has no class, but inherites from it's parent
+                </p>
+            </div>
+        </div>
+        
+        <h1 id="specific">This heading has an id</h1>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+/* this applies elements to a class */
+h1 {
+    color: red;
+}
+
+/* this creates a css style */
+.blue {
+    color: blue;
+}
+
+/* this applies to a specific id  */
+#specific {
+    background-color: green;
+    padding: 10px;
+}
