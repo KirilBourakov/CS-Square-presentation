@@ -9,12 +9,14 @@
     <body>
         <h1 class="center">Welcome to this social media platform</h1>
 
-        <form>
-            <input type="text" name="title" />
+        <form class="form" method="POST" action="/">
+            <label for="title">Post title</label>
+            <input type="text" name="title" id="title" />
+            
+            <label for="content">Post content</label>
+            <textarea name="content" id="content" rows="4" cols="50"></textarea>
 
-            <textarea name="content"></textarea>
-
-            <input type="submit" />
+            <input type="submit" class="submit" value="Post"/>
         </form>
 
         <div class="center post">
