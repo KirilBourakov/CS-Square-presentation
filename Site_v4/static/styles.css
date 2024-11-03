@@ -1,0 +1,10 @@
+.center{
+    text-align: center;
+}
+
+.post{
+    background-color: grey;
+    padding: 2px;
+    border-color: black;
+    margin: 5px;
+}
