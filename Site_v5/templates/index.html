@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an example webpage">
+        <meta name="author" content="Kiril Bourakov">
+        <link rel="stylesheet" href="/static/styles.css">
+        <script src="/static/script.js"></script>
+    </head>
+    <body>
+        <h1 class="center">Welcome to this social media platform</h1>
+
+        <form id="new_post" class="form" action="/">
+            <label for="title">Post title</label>
+            <input type="text" name="title" id="title" />
+            
+            <label for="content">Post content</label>
+            <textarea name="content" id="content" rows="4" cols="50"></textarea>
+
+            <input type="submit" class="submit" value="Post"/>
+        </form>
+
+        {% for post in posts %}
+            <div class="center post">
+                <h1>{{post['title']}}</h1>
+                <p>{{post['content']}}</p>
+            </div>
+        {% endfor %}
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <name>John Doe</name>
+  <phone>506-000-0000</phone>
+  <age>37</age>
+  <skills>HTML</skills>
+  <skills>CSS</skills>
+  <skills>JavaScript</skills>
+  <skills>Python</skills>
+  <job>
+    <company>Google</company>
+    <position>intern</position>
+  </job>
+</root>
