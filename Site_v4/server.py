@@ -19,5 +19,3 @@ def index():
             })
         print(database)
     return render_template('index.html', posts=database) 
-
-app.run(host='0.0.0.0')
