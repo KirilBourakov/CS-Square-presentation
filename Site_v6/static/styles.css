@@ -1,0 +1,23 @@
+.center{
+    text-align: center;
+}
+
+.post{
+    background-color: grey;
+    padding: 2px;
+    border-color: black;
+    margin: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit{
+    margin-right: auto;
+    padding: 3px;
+}
