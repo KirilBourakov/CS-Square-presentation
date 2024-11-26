@@ -1,8 +1,6 @@
 import sqlite3
 from flask import Flask, render_template, request
 
-# use flask --app server run --debug to run in debug mode
-
 # initalize an app
 app = Flask(__name__)
 
@@ -19,3 +17,5 @@ def index():
             })
         print(database)
     return render_template('index.html', posts=database) 
+
+app.run()

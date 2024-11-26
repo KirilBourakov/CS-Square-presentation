@@ -1,8 +1,6 @@
 from flask import Flask 
 from flask import render_template 
 
-# use flask --app server run --debug to run in debug mode
-
 # initalize an app
 app = Flask(__name__)
 
@@ -10,3 +8,5 @@ app = Flask(__name__)
 @app.route("/") 
 def index(): 
     return render_template('index.html') 
+
+app.run()
